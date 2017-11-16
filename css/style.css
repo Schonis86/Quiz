@@ -1,0 +1,203 @@
+body
+{
+	font-family: stencil;
+	background-color: black;
+}
+
+.navbar navbar-inverse
+{
+	background-color: black;
+}
+.logo a
+{
+	font-size: 66px;
+	border-style: solid;
+	padding: 35px;
+	color: grey;
+
+}
+.logo a:hover
+{
+	border-color: white;
+	color: white;
+	text-decoration:none;
+
+}
+.logo a:hover
+{
+
+}
+main
+{
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container button
+{
+color: grey;
+background-color: black;
+border-color: black;
+}
+.container button:hover
+{
+	background-color: black;
+	color: grey;
+}
+.container
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container form
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container input
+{
+
+	background-color: grey;
+	width: 200px;
+}
+.container form button
+{
+	color: white;
+	width: 200px;
+	margin: 20px;	
+}
+.container form button:hover
+{
+	color: grey;
+}
+.container label
+{	
+	margin-top: 5px;
+
+	color: white;
+}
+
+footer
+{
+	position: fixed;
+	bottom:0;
+	left: 0;
+	right: 0;
+}
+
+div.slide-left {
+
+  margin-left: 20px;
+  color: white;
+
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left p {
+  animation: slide-left 1s;
+	color: white;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+
+div.slide-right {
+
+
+	margin-left: 20px;
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right section {
+  animation: 2s slide-right;
+  color: white;
+}
+
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+/*----------SCORE-PAGE----------*/
+.scoreboard
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#scorehover:hover
+{
+	background-color: White;
+	color: black;
+}
+#score-number
+{
+	width: 15px;
+	text-align: right;
+}
+#score-number ~ td
+{
+	width: 60px;
+	text-align: center;
+}
+#score-number ~ th
+{
+	width: 60px;
+	text-align: center;
+}
+
+/*----------Login----------*/
+
+#login-main, #login-main label
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#login a, #login button{
+    margin-top: 20px;
+}
+
+/*-----------footer----------*/
+.linkbilder
+{
+    width: 40px;
+    margin-bottom: 10px;
+}
+#create-account
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+}
